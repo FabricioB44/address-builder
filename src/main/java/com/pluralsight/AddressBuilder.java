@@ -24,9 +24,9 @@ public class AddressBuilder {
         System.out.print("Shipping City: ");
         shippingAddress.append(myScanner.nextLine().strip());
         System.out.print("Shipping State: ");
-        shippingAddress .append(", ").append(myScanner.nextLine().strip());
+        shippingAddress.append(", ").append(myScanner.nextLine().strip());
         System.out.print("Shipping Zip: ");
-        shippingAddress .append(" ").append(myScanner.nextLine().strip());
+        shippingAddress.append(" ").append(myScanner.nextLine().strip());
 
         System.out.println();
         System.out.println(fullName);
